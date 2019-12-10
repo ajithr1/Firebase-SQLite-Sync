@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">VA</string>
+    <string name="create_new_account">Create new Account</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="register">Register</string>
+    <string name="login">login</string>
+    <string name="already">Already Registered? Login</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="welcome">Welcome</string>
+    <string name="authenticator">Authenticator</string>
+    <string name="new_here_register">New Here? Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="async_task">Async Task</string>
+    <string name="download">download</string>
+    <string name="download_image">download image</string>
+    <string name="textview">TextView</string>
+    <string name="out">Sign out</string>
+</resources>

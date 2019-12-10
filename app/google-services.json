@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "346441774676",
+    "firebase_url": "https://vafirebaseproject-d437c.firebaseio.com",
+    "project_id": "vafirebaseproject-d437c",
+    "storage_bucket": "vafirebaseproject-d437c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346441774676:android:86fb02e3f32b7b9c911fc1",
+        "android_client_info": {
+          "package_name": "com.example.va"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346441774676-b6q0dcrv5kii4t69op2rcgkg8vpo4sl1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.va",
+            "certificate_hash": "f0c409ce9042175e78ffe38035e8087704fe0a80"
+          }
+        },
+        {
+          "client_id": "346441774676-cs701g0u0puq86msp1mcu79csucv15d9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXmR0WUW8ZECWsb44qZhyhTugveru2qf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346441774676-cs701g0u0puq86msp1mcu79csucv15d9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
