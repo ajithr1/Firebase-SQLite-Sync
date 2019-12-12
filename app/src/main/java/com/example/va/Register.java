@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.service.autofill.Validator;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -19,7 +20,7 @@ import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class Register extends AppCompatActivity {
+public class Register extends AppCompatActivity implements Validator {
 
     EditText name, email, phone, pass, cpass;
     Button reg;
