@@ -14,7 +14,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ListActivity"></activity>
+        <activity android:name=".AddListActivity"></activity>
+        <activity android:name=".ListActivity" />
         <activity
             android:name=".AsyncTaskExample"
             android:parentActivityName=".MainActivity" />

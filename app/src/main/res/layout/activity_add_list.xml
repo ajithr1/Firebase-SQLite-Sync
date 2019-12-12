@@ -4,36 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="8dp"
-    android:padding="8dp"
-    tools:context=".MainActivity">
+    tools:context=".AddListActivity">
 
-    <Button
-        android:id="@+id/button"
+    <EditText
+        android:id="@+id/enter_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:background="#FFFFFF"
-        android:onClick="Async"
-        android:padding="8dp"
-        android:text="@string/async_task"
-        android:textSize="20sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/List"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:background="#FFFFFF"
-        android:padding="8dp"
-        android:text="@string/lift"
-        android:textSize="20sp"
-        android:onClick="list"
+        android:text="Button"
+        android:onClick="save"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
-
+        app:layout_constraintTop_toBottomOf="@+id/enter_name" />
 </androidx.constraintlayout.widget.ConstraintLayout>
