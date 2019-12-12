@@ -30,16 +30,6 @@ public class ListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
-        FloatingActionButton floatingActionButton = findViewById(R.id.button_add_note);
-
-        floatingActionButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ListActivity.this, AddListActivity.class);
-                startActivityForResult(intent, ADD_REQ);
-            }
-        });
-
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setHasFixedSize(true);
@@ -110,4 +100,9 @@ public class ListActivity extends AppCompatActivity {
         }
     }
 
+    public void add(View view) {
+
+        Intent intent = new Intent(ListActivity.this, AddListActivity.class);
+        startActivityForResult(intent, ADD_REQ);
+    }
 }
