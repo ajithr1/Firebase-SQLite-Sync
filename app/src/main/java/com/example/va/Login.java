@@ -87,33 +87,8 @@ public class Login extends AppCompatActivity {
     }
 
     @Override
-    protected void onStart() {
-        super.onStart();
-        Log.d("AjjuL", "start");
-    }
-
-    @Override
     protected void onStop() {
         super.onStop();
-        Log.d("AjjuL", "stop");
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.d("AjjuL", "destroy");
         finish();
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        Log.d("AjjuL", "pause");
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Log.d("AjjuL", "resume");
     }
 }
