@@ -13,19 +13,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ShoppingActivity" />
+        <activity android:name=".View.ShoppingActivity" />
         <activity
-            android:name=".AsyncTaskExample"
-            android:parentActivityName=".MainActivity" />
+            android:name=".Async.AsyncTaskExample"
+            android:parentActivityName=".LRF.MainActivity" />
         <activity
-            android:name=".ForgotPassword"
-            android:parentActivityName=".Login" />
+            android:name=".LRF.ForgotPassword"
+            android:parentActivityName=".LRF.Login" />
         <activity
-            android:name=".Register"
-            android:parentActivityName=".Login" />
-        <activity android:name=".Login" />
+            android:name=".LRF.Register"
+            android:parentActivityName=".LRF.Login" />
+        <activity android:name=".LRF.Login" />
         <activity
-            android:name=".MainActivity"
+            android:name=".LRF.MainActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

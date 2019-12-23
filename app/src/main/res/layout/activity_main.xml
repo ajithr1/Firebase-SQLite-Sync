@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_margin="8dp"
     android:padding="8dp"
-    tools:context=".MainActivity">
+    tools:context=".LRF.MainActivity">
 
     <Button
         android:id="@+id/button"

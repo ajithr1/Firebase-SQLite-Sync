@@ -7,13 +7,12 @@
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
     android:layout_margin="8dp"
-    tools:context=".ShoppingActivity">
+    tools:context=".View.ShoppingActivity">
 
     <Button
         android:id="@+id/create"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:onClick="create"
         android:text="@string/create"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,16 +22,15 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rc"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/create"
-        app:layout_constraintVertical_bias="0.0"
         tools:listitem="@layout/recycler_item" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_vertical"

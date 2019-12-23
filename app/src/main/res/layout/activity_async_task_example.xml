@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_margin="8dp"
     android:padding="8dp"
-    tools:context=".AsyncTaskExample">
+    tools:context=".Async.AsyncTaskExample">
 
     <TextView
         android:id="@+id/textView2"

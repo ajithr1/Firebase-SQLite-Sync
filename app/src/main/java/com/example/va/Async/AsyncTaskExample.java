@@ -1,4 +1,4 @@
-package com.example.va;
+package com.example.va.Async;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,6 +13,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.va.R;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:orientation="vertical"
-    tools:context=".AddShopList">
+    tools:context=".View.AddShopList">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -25,7 +25,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:hint="Enter name of List" />
+                android:hint="Enter name of List"
+                android:inputType="text"/>
 
             <Button
                 android:id="@+id/snd"
