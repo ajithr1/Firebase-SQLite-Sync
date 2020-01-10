@@ -11,4 +11,4 @@ This is a Todo list app with both Firebase and SQLite synchronized.
 * Recycler View & Card View
 
 ## Authors
-* **Ajith Rudroju** - *Initial work* - [Ajith Rudroju](https://github.com/ajithr1)
+* **Ajith Rudroju** - *Android Developer* - [Ajith Rudroju](https://github.com/ajithr1)
